@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mongodb-tests"
+version = "0.1.0"
+description = ""
+authors = ["anixel <45008199+andifg@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+faker = "^25.0.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+pydantic = "^2.7.1"
+uuid7 = "^0.1.0"
+motor = "^3.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
